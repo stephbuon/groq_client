@@ -13,7 +13,7 @@ pip install git+https://github.com/yourusername/groq_client.git
 ```python
 from groq_client import ask_groq
 
-response = ask_groq("Translate this Russian sentence into English.")
+response = ask_groq("What is today's date?")
 print(response)
 ```
 
