@@ -1,7 +1,7 @@
 import requests
 import os
 
-def ask_groq(query, model="llama-3.3-70b-versatile", api_key="GROQ_API_KEY"):
+def ask_groq(query, model="llama-3.3-70b-versatile"):
     """
     Sends a prompt to the Groq API and returns the response.
 
